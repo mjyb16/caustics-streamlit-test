@@ -8,3 +8,4 @@ safetensors>=0.4.1
 scipy>=1.8.0
 torch>=2.0.0
 matplotlib>=3.7.1
+caustics @ git+https://github.com/mjyb16/caustics-streamlit-test@streamlit
