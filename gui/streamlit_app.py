@@ -2,11 +2,11 @@ import streamlit as st
 import matplotlib.pyplot as plt
 import torch
 import numpy as np
-from ..src.caustics.utils import get_meshgrid
-from ..src.caustics.cosmology import FlatLambdaCDM
-from ..src.caustics.lenses import EPL, ExternalShear, SinglePlane
-from ..src.caustics.light import sersic
-import ..src.caustics
+from caustics.utils import get_meshgrid
+from caustics.cosmology import FlatLambdaCDM
+from caustics.lenses import EPL, ExternalShear, SinglePlane
+from caustics.light import sersic
+import caustics
 
 
 def caustic_critical_line(
